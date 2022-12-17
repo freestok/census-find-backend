@@ -17,7 +17,7 @@ jobs:
 
 
 ### ⬇ IMPORTANT PART ⬇ ###
-      - name: Install xmllint
+      - name: Install libudunits2-dev
         run: sudo apt-get install -y libudunits2-dev
 
       - name: Build, Push and Release a Docker container to Heroku. # Your custom step name
