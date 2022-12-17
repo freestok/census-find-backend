@@ -1,4 +1,5 @@
 # plumber.R
+library(tidycensus)
 
 #* @preempt __first__
 #* @get /
