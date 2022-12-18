@@ -7,8 +7,5 @@ FROM virtualstaticvoid/heroku-docker-r:plumber
 # Heroku will override the PORT value at runtime
 ENV PORT=8080
 
-# install dependencies
-RUN apt-get install -y libudunits2-dev
-
 # override the base image CMD to run Plumber
 CMD ["/usr/bin/R", "--no-save", "--gui-none", "-f", "/app/app.R"]

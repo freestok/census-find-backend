@@ -17,9 +17,6 @@ jobs:
 
 
 ### ⬇ IMPORTANT PART ⬇ ###
-      - name: Install libudunits2-dev
-        run: sudo apt-get install -y libudunits2-dev
-
       - name: Build, Push and Release a Docker container to Heroku. # Your custom step name
         uses: gonuit/heroku-docker-deploy@v1.3.3 # GitHub action name (leave it as it is).
         with:
