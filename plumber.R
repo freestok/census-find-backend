@@ -1,5 +1,13 @@
 # plumber.R
+library(assertthat)
+library(dbplyr)
+library(geojsonsf)
+library(glue)
+library(here)
+library(plumber)
+library(sf)
 library(tidycensus)
+library(tidyverse)
 
 #* @preempt __first__
 #* @get /
