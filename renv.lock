@@ -59,6 +59,23 @@
       "Hash": "45f0398006e83a5b10b72a90663d8d8c",
       "Requirements": []
     },
+    "RPostgres": {
+      "Package": "RPostgres",
+      "Version": "1.4.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c593ecb8dbca9faf3906431be610ca28",
+      "Requirements": [
+        "DBI",
+        "Rcpp",
+        "bit64",
+        "blob",
+        "hms",
+        "lubridate",
+        "plogr",
+        "withr"
+      ]
+    },
     "Rcpp": {
       "Package": "Rcpp",
       "Version": "1.0.9",
@@ -875,6 +892,14 @@
       "Hash": "01f28d4278f15c76cddbea05899c5d6f",
       "Requirements": []
     },
+    "plogr": {
+      "Package": "plogr",
+      "Version": "0.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "09eb987710984fc2905c7129c7d85e65",
+      "Requirements": []
+    },
     "plumber": {
       "Package": "plumber",
       "Version": "1.2.1",
@@ -896,6 +921,18 @@
         "stringi",
         "swagger",
         "webutils"
+      ]
+    },
+    "pool": {
+      "Package": "pool",
+      "Version": "0.1.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "adbd1934555da2c62338acd48ad957f5",
+      "Requirements": [
+        "DBI",
+        "R6",
+        "later"
       ]
     },
     "prettyunits": {
