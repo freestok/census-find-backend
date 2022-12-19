@@ -30,4 +30,11 @@ pr$registerHooks(
   )
 )
 
-pr_run(pr, port=strtoi(port))
+port <- Sys.getenv('PORT')
+
+pr$run(
+	host = '0.0.0.0',
+	port = as.numeric(port),
+	docs=TRUE
+)
+# pr_run(pr, port=strtoi(port))
