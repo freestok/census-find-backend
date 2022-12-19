@@ -20,6 +20,7 @@ get_con <- function() {
     host = host,
     options = glue('project={project}')
   )
+  return (con)
 }
 
 helper_get_census_key <- function() {
